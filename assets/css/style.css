@@ -3,8 +3,9 @@
    Colori presi dal logo. Per cambiarli modifica solo :root.
    ============================================================ */
 :root {
-  --blu: #1F4E9A;
-  --blu-scuro: #163A73;
+  /* colore principale (titoli, link, bordi): verde scuro del logo */
+  --blu: #23661F;
+  --blu-scuro: #1A4F17;
   --verde: #2E7D2A;
   --verde-chiaro: #3FA535;
   --arancio: #D2650A;
@@ -34,7 +35,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--blu); }
 a:hover { color: var(--blu-scuro); }
 h1, h2, h3 { font-family: var(--font-titoli); font-weight: 600; color: var(--blu); margin: 0; line-height: 1.1; }
@@ -244,3 +245,12 @@ p { margin: 0; }
 .pagina h2 { font-size: 24px; margin: 32px 0 10px; }
 .pagina p, .pagina li { font-size: 17px; color: var(--testo-2); }
 .pagina p + p { margin-top: 12px; }
+
+/* ---------- Palette verde e arancio (dal logo) ---------- */
+.topbar { background: #2E7D2A; }
+.latte { background: #2E7D2A; }
+.latte .testo-grande { color: #E3F2E1; }
+.btn--blu { background: #B84E00; }
+.btn--blu:hover { background: #9A4100; }
+.i-blu { background: #FFE7CC; color: #B84E00; }
+.chip--blu { color: #B84E00; }
